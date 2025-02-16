@@ -6,6 +6,7 @@
     ./docker.nix
     ./kube.nix
     ./neovim.nix
+    ./gh.nix
   ];
 
   home.packages = with pkgs; [
