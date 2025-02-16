@@ -1,3 +1,4 @@
+{ pkgs, ... }:
 {
   imports = [
     ./aerospace.nix
@@ -5,5 +6,9 @@
     ./docker.nix
     ./kube.nix
     ./neovim.nix
+  ];
+
+  home.packages = with pkgs; [
+    eza
   ];
 }
