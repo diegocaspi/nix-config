@@ -22,6 +22,7 @@
     defaults = {
       dock = {
         autohide = true;
+        expose-group-apps = true;
         orientation = "bottom";
         magnification = false;
         mineffect = "genie";
