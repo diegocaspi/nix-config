@@ -1,3 +1,4 @@
+{ pkgs, ... }:
 {
   imports = [
     ./brave.nix
@@ -6,3 +7,4 @@
     ./raycast.nix
   ];
 }
+
