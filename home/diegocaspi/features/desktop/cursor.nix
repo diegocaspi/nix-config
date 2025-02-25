@@ -4,7 +4,7 @@
 }:
 {
   programs.vscode = {
-    enable = true;
+    enable = false;
     package = pkgs.code-cursor;
   };
 }
