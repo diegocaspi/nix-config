@@ -10,7 +10,8 @@
     ../common/users/diegocaspi/darwin.nix
   ];
 
-  security.pam.enableSudoTouchIdAuth = true;
+  security.pam.services.sudo_local.touchIdAuth = true;
+
   networking = {
     computerName = host;
     localHostName = host;
