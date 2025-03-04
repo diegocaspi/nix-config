@@ -6,10 +6,9 @@
     ./docker.nix
     ./kube.nix
     ./neovim.nix
-    ./gh.nix
+    ./git.nix
     ./starship.nix
     ./zsh.nix
-    ./yazi.nix
   ];
 
   home.packages = with pkgs; [

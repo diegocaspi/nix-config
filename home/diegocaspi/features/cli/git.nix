@@ -8,4 +8,8 @@
       git_protocol = "ssh";
     };
   };
+
+  programs.lazygit = {
+    enable = lib.mkDefault true;
+  };
 }

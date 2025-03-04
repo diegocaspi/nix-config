@@ -25,6 +25,12 @@
         dx = "devbox";
       };
     };
+
+    yazi = {
+      enable = lib.mkDefault true;
+      enableZshIntegration = true;
+    };
+
     atuin = {
       enable = true;
       enableZshIntegration = true;
@@ -33,6 +39,11 @@
         sync_frequency = "5m";
         style = "compact";
       };
+    };
+
+    zoxide = {
+      enable = true;
+      enableZshIntegration = true;
     };
   };
 }
