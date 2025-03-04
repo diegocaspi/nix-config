@@ -23,6 +23,7 @@
         k = "kubectl";
         y = "yazi";
         dx = "devbox";
+        lg = "lazygit";
       };
     };
 
