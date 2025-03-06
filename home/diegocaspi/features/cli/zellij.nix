@@ -5,6 +5,7 @@ in
 {
   programs.zellij = {
     enable = true;
+    enableZshIntegration = true;
 
     settings = {
       ui = {
@@ -22,7 +23,8 @@ in
   };
 
   xdg.configFile."zellij/config.kdl".text = ''
-        keybinds clear-defaults=true {
+    theme "catppuccin-mocha"
+    keybinds clear-defaults=true {
         normal {
         }
         locked {
