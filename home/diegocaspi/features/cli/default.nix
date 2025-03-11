@@ -10,6 +10,7 @@
     ./starship.nix
     ./zsh.nix
     ./zellij.nix
+    ./golang.nix
   ];
 
   home.packages = with pkgs; [
