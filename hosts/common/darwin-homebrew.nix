@@ -23,6 +23,10 @@
   homebrew = {
     enable = lib.mkDefault true;
 
+    casks = [
+      "jordanbaird-ice"
+    ];
+
     onActivation = {
       cleanup = "zap";
       autoUpdate = true;
