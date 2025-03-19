@@ -7,7 +7,7 @@
     enable = lib.mkDefault true;
     settings = {
       add_newline = false;
-      format = "$directory$all";
+      format = "$directory";
 
       aws = {
         disabled = true;
@@ -15,7 +15,7 @@
       };
 
       azure = {
-        disabled = false;
+        disabled = true;
         format = "on [$symbol($subscription)]($style) ";
         symbol = "󰠅 ";
         style = "blue bold";

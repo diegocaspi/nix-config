@@ -58,7 +58,7 @@
       };
 
       controlcenter = {
-        BatteryShowPercentage = true;
+        BatteryShowPercentage = false;
       };
 
       SoftwareUpdate.AutomaticallyInstallMacOSUpdates = true;
