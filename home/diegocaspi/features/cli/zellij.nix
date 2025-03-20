@@ -24,6 +24,7 @@ in
 
   xdg.configFile."zellij/config.kdl".text = ''
     theme "catppuccin-mocha"
+    show_startup_tips false
     keybinds clear-defaults=true {
         normal {
         }
