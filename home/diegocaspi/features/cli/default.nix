@@ -17,5 +17,6 @@
     eza
     btop
     azure-cli
+    devbox
   ];
 }

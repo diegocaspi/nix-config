@@ -11,5 +11,6 @@ in
     kubectl
     kubectx
     darwinHelm
+    k9s
   ];
 }

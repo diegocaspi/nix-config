@@ -1,10 +1,10 @@
 { pkgs, ... }:
 {
   imports = [
-    ./brave.nix
-    ./cursor.nix
     ./ghostty.nix
     ./raycast.nix
+    ./spotify.nix
+    ./spotify.nix
   ];
 }
 
