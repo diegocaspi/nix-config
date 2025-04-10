@@ -12,5 +12,8 @@ in
     kubectx
     darwinHelm
     k9s
+    krew
+    kuttl
+    kind
   ];
 }
