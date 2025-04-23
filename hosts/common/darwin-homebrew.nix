@@ -25,9 +25,10 @@
 
     casks = [
       "jordanbaird-ice"
+      "headlamp"
     ];
 
-    onActivation = {
+      onActivation = {
       cleanup = "zap";
       autoUpdate = true;
     };
