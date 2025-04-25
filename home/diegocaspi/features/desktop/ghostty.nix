@@ -5,6 +5,9 @@
     package = null;
     settings = {
       theme = "catppuccin-mocha";
+      
+      background-opacity = 0.85;
+      background-blur-radius = 95;
 
       macos-titlebar-style = "transparent";
 
