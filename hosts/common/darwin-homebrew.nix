@@ -26,7 +26,6 @@
     casks = [
       "jordanbaird-ice"
       "headlamp"
-      "tilt-dev/tap/ctlptl"
     ];
 
       onActivation = {
