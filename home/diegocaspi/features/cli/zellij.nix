@@ -173,7 +173,6 @@ in
         shared_among "normal" "locked" {
             bind "${secondary_modifier} n" { NewPane; }
             bind "${secondary_modifier} f" { ToggleFloatingPanes; }
-            bind "${secondary_modifier} i" { MoveTab "Left"; }
             bind "${secondary_modifier} o" { MoveTab "Right"; }
             bind "${secondary_modifier} h" "${secondary_modifier} Left" { MoveFocusOrTab "Left"; }
             bind "${secondary_modifier} l" "${secondary_modifier} Right" { MoveFocusOrTab "Right"; }
