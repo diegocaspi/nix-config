@@ -25,7 +25,7 @@
         dx = "devbox";
         lg = "lazygit";
       };
-      envExtra = "export PATH=$HOME/development/flutter/bin:$PATH";
+      envExtra = "export PATH=$HOME/development/flutter/bin:$PATH\nexport PATH=$HOME/.bun/bin:$PATH";
     };
 
     yazi = {
