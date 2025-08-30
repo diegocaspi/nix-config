@@ -80,15 +80,15 @@
         alt-shift-comma = "mode service";
       };
       workspace-to-monitor-force-assignment = {
-        a = "main";
-        s = "main";
-        d = "main";
-        f = "main";
-        g = "main";
-        q = "secondary";
-        w = "secondary";
-        e = "secondary";
-        r = "secondary";
+        A = "main";
+        S = "main";
+        D = "main";
+        F = "main";
+        G = "main";
+        Q = "secondary";
+        W = "secondary";
+        E = "secondary";
+        R = "secondary";
       };
       mode.service.binding = {
         esc = ["reload-config" "mode main"];
