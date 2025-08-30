@@ -23,13 +23,17 @@
   homebrew = {
     enable = lib.mkDefault true;
 
+    brews = [
+      "azure-cli"
+    ];
+
     casks = [
       "jordanbaird-ice"
       "headlamp"
       "font-fira-code"
     ];
 
-      onActivation = {
+    onActivation = {
       cleanup = "zap";
       autoUpdate = true;
     };
