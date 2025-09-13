@@ -1,6 +1,6 @@
 {
   programs.ghostty = {
-    enable = true;
+    enable = false;
     # https://github.com/nix-community/home-manager/blob/6d3163aea47fdb1fe19744e91306a2ea4f602292/modules/programs/ghostty.nix#L34
     package = null;
     settings = {
