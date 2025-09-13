@@ -49,6 +49,11 @@
         system = "aarch64-darwin";
         darwin = true;
       };
+      lunex = lib.mkSystem {
+        host = "lunex";
+        system = "x86_64-darwin";
+        darwin = true;
+      };
     };
   };
 }
