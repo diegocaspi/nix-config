@@ -10,6 +10,7 @@
     ./starship.nix
     ./zsh.nix
     ./zellij.nix
+    ./direnv.nix
   ];
 
   home.packages = with pkgs; [

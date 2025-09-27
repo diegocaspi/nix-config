@@ -32,6 +32,7 @@
       "headlamp"
       "font-fira-code"
       "ghostty"
+      "raycast"
     ];
 
     onActivation = {
